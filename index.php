@@ -2,22 +2,22 @@
 //Esercizio 1
 //Dato un array di numeri a scelta, scrivere un programma che calcoli la media solo dei numeri pari contenuti all’interno dell’array
 
-$array = [1,2,3,4,5,6,7,8,9,10];
-$media = 0;
-$count = 0;
+// $array = [1,2,3,4,5,6,7,8,9,10];
+// $media = 0;
+// $count = 0;
 
-for($i = 0; $i < count($array); $i++){
+// for($i = 0; $i < count($array); $i++){
 
-    if($array[$i] % 2 == 0){
-        $media = $media + $array[$i];
-        $count++;
-    }
+//     if($array[$i] % 2 == 0){
+//         $media = $media + $array[$i];
+//         $count++;
+//     }
 
-};
+// };
 
-$media = $media/$count;
+// $media = $media/$count;
 
-echo "La media è $media";
+// echo "La media è $media";
 
 
 //Esercizio 2
